@@ -1,0 +1,192 @@
+.btn-submit {
+    color: white;
+    background-color: #0d723b;
+    border: 1px solid;
+    border-color: #b6b6b6;
+    padding: 5px 20px;
+    border: 1px solid #0d723b;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+
+.btn-submit:hover {
+    color: #0d723b;
+    background-color: white;
+    border-color: #0d723b;
+}
+
+.hour-hand {
+    animation: hh-draw 3s cubic-bezier(0.13, 0.88, 0.47, 1.01) infinite, hh-rotate 3s cubic-bezier(0.24, 0.65, 0.46, 0.95) infinite;
+}
+
+.minute-hand {
+    animation: mh-draw 3s cubic-bezier(0.13, 0.88, 0.47, 1.01) infinite, mh-rotate 3s cubic-bezier(0.24, 0.65, 0.46, 0.95) infinite;
+}
+
+.frame {
+    animation: circular 3s infinite;
+}
+
+.timer-ctn #clockdiv {
+    position: relative;
+    top: 8px;
+    margin-right: 15px;
+}
+
+#clockdiv .clock-count-down {
+    color: #AE8516;
+    font-size: 20px;
+}
+
+.timer-ctn{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.answer-ctn {
+    box-shadow: 0px 5px 10px -5px rgb(0 0 0 / 41%);
+}
+
+.asnswer-list {
+    border-bottom: 1px solid #0d723b;
+}
+
+.asnswer-list .list {
+    margin: 25px 0;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.asnswer-list .list .numberCircle {
+    padding: 0px !important;
+}
+
+.asnswer-list .list .undone {
+    background-color: #E4E4E4;
+    color: #000;
+    border: 1px solid #0d723b;
+}
+
+.asnswer-list .list .numberCircle {
+    display: inline-block;
+    border-radius: 4px;
+    height: 30px;
+    padding: 6px;
+    text-align: center;
+    font-size: 13px;
+    margin: 4px;
+}
+
+.nenxanh {
+    background: #0d723b !important;
+}
+
+.colorXanh {
+    color: #0d723b !important;
+}
+
+.answer-ctn .undone {
+    border: 1px solid #E4E4E4;
+}
+
+.asnswer-list .list .numberCircle > a {
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    line-height: 30px;
+    padding: 0 6px;
+    border-radius: 50%;
+}
+
+.explain .explain-ctn {
+    display: flex;
+    flex-direction: row;
+}
+
+.ex-done, .ex-undone {
+    display: flex;
+}
+
+.explain .explain-ctn .done {
+    background-color: #0d723b;
+    color: #fff;
+    border: 1px solid #E4E4E4;
+}
+
+.explain .explain-ctn .circle {
+    display: inline-block;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    text-align: center;
+    font-size: 13px;
+    margin: 4px;
+}
+
+.ex-done .temp, .ex-undone .temp {
+    margin: 10px;
+}
+
+.answer-ctn .undone {
+    border: 1px solid #E4E4E4;
+}
+
+.explain .explain-ctn .undone {
+    background-color: #E4E4E4;
+    color: #000;
+    border: 1px solid #0d723b;
+}
+
+.list-ques-ctn {
+    margin: 5% 0;
+}
+
+.fade:not(.show) {
+    opacity: 0.75;
+}
+
+.quiz-form__quiz:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+
+.fade {
+    transition: opacity .15s linear;
+}
+
+.quiz-form__question {
+    margin-bottom: 0.8rem;
+    font-size: 1.2rem;
+}
+
+.quiz-form__ans input {
+    margin-right: 5px;
+}
+
+.quiz-form__ans {
+    display: flex;
+    border-radius: 0.8rem;
+    padding: 0.3rem 2.5rem;
+    color: #000;
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    cursor: pointer;
+}

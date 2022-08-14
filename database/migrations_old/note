@@ -1,0 +1,36 @@
+
+
+-> gui email dang ki thanh cong
+-> thanh toan vnpay --> devlopment --> thanh toan online 
+
+
+tạo tk học viên 
+
+1. admin tự tạo 
+2. đăng kí ngoài website
+3. lúc nó đăng kí xác nhận email --> mình gửi thông tin tài khoản cho nó
+
+orders 
+
+
+id 
+class_id ---> courses --> price 
+note --> ghi chú phiếu thu , đã thanh toán bn ...
+fullName
+phone
+email 
+status  --> unactive --> active ---> tao tk student 
+? student_id ---> null 
+? creator_id --> null --> offline -->     
+created_at
+updated_at
+
+tạo order --> dh001 -> status === 0 (chưa xác nhận) --> hệ thống gửi email 
+
+--> bấm vào xác nhân -> đã xác nhận 
+
+nút thanh toán online
+
+--> thanh toán online || offline --> order --> đã thu $ 
+
+

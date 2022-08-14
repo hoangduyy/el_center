@@ -1,0 +1,39 @@
+
+.schedule_time {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.schedule_day {
+    display: block;
+    border: 1px solid #d9d9d9;
+    min-width: 100px;
+    text-align: center;
+    cursor: pointer;
+    /* color: #d9d9d9; */
+}
+
+.active_day {
+    background-color: lightblue;
+    color: #333;
+}
+
+.schedule-pick-day {
+    border: 1px solid gray;
+    padding: 4px 21px;
+    cursor: pointer;
+}
+.ant-descriptions-item-label {
+    font-weight: bold;
+    color: rgb(169, 169, 255);
+}
+
+.ant-row.ant-form-item.control-75 .ant-col.ant-form-item-control {width: 75%;}
+svg.highcharts-root {
+    width: 100% !important;
+}
+
+.highcharts-container {
+    width: 100% !important;
+}
+
